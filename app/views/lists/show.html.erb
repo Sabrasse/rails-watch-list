@@ -9,7 +9,7 @@
           <h1><%=bookmark.movie.title%> - <%=bookmark.movie.rating%></h1>
           <p><%=bookmark.movie.overview%></p>
           <p><%=bookmark.comment%></p>
-          <%= cl_image_tag bookmark.photo.key, height: 300, width: 400, crop: :fill %>
+          <%= cl_image_tag bookmark.photo.key, height: 150, width: 200, crop: :fill %>
         </div>
         <%=link_to "Delete a bookmark", bookmark_path(bookmark), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"}, class:'btn btn-warning'%>
       </div>
