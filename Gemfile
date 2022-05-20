@@ -30,6 +30,9 @@ gem "jbuilder"
 # Security gem
 gem "dotenv-rails", groups: [:development, :test]
 
+# Host pictures on cloud
+gem "cloudinary"
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
