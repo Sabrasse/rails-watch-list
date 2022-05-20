@@ -54,6 +54,9 @@ gem "simple_form", github: "heartcombo/simple_form"
 # Better css (with variables, nested stuff and more)
 gem "sassc-rails"
 
+# Fake data
+gem "faker"
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
